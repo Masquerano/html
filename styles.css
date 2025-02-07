@@ -1,0 +1,174 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1f1d1d;
+    color: #333;
+}
+
+/* Cabeçalho e navegação */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d4a311;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #d4a311;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+/* Seção hero */
+.hero {
+    background-color: #1f1d1d;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d4a311;
+    text-align: center;
+
+}
+
+.img-carousel1 {
+    height: 670px; /* ajuste */
+    object-fit: cover; /* corta a imagem */
+    width: 100%; /* largura do carrossel */
+}
+
+.img-carousel2 {
+    height: 650px; /* ajuste */
+    object-fit: cover; /* corta a imagem */
+    width: 100%; /* largura do carrossel */
+}
+
+.img-carousel3 {
+    height: 650px; /* ajuste */
+    object-fit: cover; /* corta a imagem */
+    width: 100%; /* largura do carrossel */
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 22px;
+}
+
+/* Seções */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section {
+    background-color: #d4a311;
+    font-weight: bold;
+}
+
+.projects-section {
+    background-color: #1f1d1d;
+    color: black;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.project-card {
+    background-color:  #d4a311;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-section {
+    background-color: #d4a311;
+}
+
+.contact-section {
+    background-color: #1f1d1d;
+    color: #d4a311;
+}
+
+/* Formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #f39c12;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: dimgray;
+    text-align: center;
+    padding: 20px 0;
+}
